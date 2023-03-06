@@ -4,8 +4,8 @@ project "LZ4"
 	cppdialect "C++17"
 	staticruntime "off"
 
-	targetdir ("%{wks.location}/Build_Data/bin/" .. outputDir .. "/%{prj.name}")
-	objdir ("%{wks.location}/Build_Data/bin-obj/" .. outputDir .. "/%{prj.name}")
+	targetdir ("%{wks.location}/Build_Data/bin/" .. outputDir .. "/%{wks.name}")
+	objdir ("%{wks.location}/Build_Data/bin-obj/" .. outputDir .. "/%{wks.name}")
 
 	files
 	{
